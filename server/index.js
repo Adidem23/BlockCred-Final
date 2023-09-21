@@ -1,8 +1,13 @@
 import { connectDB } from "./db/database.js";
 import express from "express";
 import TestUser from "./models/Test.js";
+import router from "./Router/Router.js"
 
 const app = express();
+
+app.use('/', router)
+
+app.use(express.urlencoded({ extended: true })); //to access data from request bodies
 
 //ctu ==> create test user
 app.get("/ctu", (req, res) => {

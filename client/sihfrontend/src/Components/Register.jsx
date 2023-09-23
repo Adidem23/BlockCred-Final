@@ -15,7 +15,7 @@ function Register() {
 
         <div className='LoginRegi'>
 
-        {/* <Spline scene="https://prod.spline.design/lhUMsZQ-SCL5n-0A/scene.splinecode" style={{marginLeft:"100px"}} /> */}
+          {/* <Spline scene="https://prod.spline.design/lhUMsZQ-SCL5n-0A/scene.splinecode" style={{marginLeft:"100px"}} /> */}
 
 
           <div style={{ width: '250px', height: "60px", alignItems: 'center', background: "#D4ADFC", textAlign: 'center', display: 'flex', flexDirection: 'row', }}>

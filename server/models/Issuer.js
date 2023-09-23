@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 const IssuerSchema = mongoose.Schema({
   username: String,
+  email: String,
   password: String,
   walletAddr: String,
 });

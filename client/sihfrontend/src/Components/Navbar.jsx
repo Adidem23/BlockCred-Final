@@ -1,5 +1,5 @@
 import "../CSS/Navbar.css"
-import Logo from '../Images/BlockCred.jpg'
+// import Logo from './../Images/BlockCred.jpg'
 import { ConnectWallet } from "@thirdweb-dev/react";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
 
         <nav className="navbar">
             <div className="logo">
-                <img src={Logo} alt="Logo" />
+                {/* <img src={Logo} alt="Logo" /> */}
                 <span className="logo-text">BlockCred</span>
 
             </div>

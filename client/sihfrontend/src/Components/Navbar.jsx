@@ -1,4 +1,5 @@
 import "../CSS/Navbar.css"
+
 import Logo from '../Images/BlockCred.jpg'
 import Jazzicon, { jsNumberForAddress } from 'react-jazzicon';
 import { useDispatch } from 'react-redux';
@@ -69,8 +70,11 @@ const Navbar = () => {
         <nav className="navbar">
 
             <div className="logo">
+
                 <img src={Logo} alt="Logo" />
                 <span className="logo-text" id="l">BlockCred</span>
+
+
             </div>
 
             <ul className="nav-links">

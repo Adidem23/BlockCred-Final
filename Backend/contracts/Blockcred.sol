@@ -27,11 +27,13 @@ contract BlockCred {
         superadmin = msg.sender;
     }
 
-     function isSuperadmin(address _address) public view returns (bool) {
+    function isSuperadmin(address _address) public view returns (bool) {
         return _address == superadmin;
     }
 
-    function organizationExists(address _orgAddress) public view returns (bool) {
+    function organizationExists(
+        address _orgAddress
+    ) public view returns (bool) {
         return organizations[_orgAddress].exists;
     }
 
